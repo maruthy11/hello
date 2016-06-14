@@ -1,0 +1,14 @@
+<project name= "home work" default="a1" basedir=".">
+<!-- basic things for learning ant script-->
+	<target name= "print">
+		<echo>hello i did homework</echo>
+	</target>
+
+<!-- setting up a new directories-->
+<target>
+<mkdir dir= "dir1"/>
+<mkdir dir = "dir2"/>
+<mkdir dir = "dir3"/>
+<touch file= "file1">
+<touch file= "file2">
+</target>
